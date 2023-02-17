@@ -4,13 +4,7 @@ My Vivid is a color scheme for Neovim. It has no background color, so it is tran
 
 ## Usage 
 
-### Packer
-
-```
-use "RaphaeleL/my_vivid"
-```
-
-### Lazy 
+with [folke/lazy.nvim](https://github.com/folke/lazy.nvim)
 
 > Optional: You can set `event = "VeryLazy"` to Extrem Lazy Load the Colorscheme without any optical issues.
 
@@ -28,13 +22,13 @@ return {
 vim.cmd("colorscheme my_vivid")
 ```
 
-My Personal Adjustments:
+Personal Adjustments can be done like this:
 
 ```
 vim.cmd("hi @field guifg=#89A5AC")
 vim.cmd("hi @parameter guifg=#77B0DA")
 ```
-k
+
 ## Showcase
 
 <img src="./assets/demo/Demo-1.png" align="center" alt="Demo1">
